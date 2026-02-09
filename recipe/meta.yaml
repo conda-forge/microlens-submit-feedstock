@@ -1,6 +1,6 @@
 {% set name = "microlens-submit" %}
 {% set filename_name = name | replace("-", "_") %}
-{% set version = "0.16.5" %}
+{% set version = "0.17.0" %}
 {% set python_min = "3.10" %}
 
 # NOTE: This recipe is the source of truth for conda-forge. Edit it here in
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ filename_name }}-{{ version }}.tar.gz
-  sha256: 9bcd90d06b1c75c536c1c0f48d9bd3d516f9801aee6b37fc805451354b00aabe
+  sha256: a4d794f4f60c475c0beba43f0d2f1ba9df7d1e628ef8cdca0f9647bc123611be
 
 build:
   number: 0
